@@ -1,0 +1,45 @@
+.Header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 10px 15px;
+}
+
+.logo {
+    margin: 16px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 30%;
+}
+
+.options ul {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    padding: 10px;
+}
+
+.headerLi {
+    list-style: none;
+    padding: 10px;
+}
+
+.navLink {
+    text-decoration: none;
+    border-bottom: none;
+    color: currentColor;
+    background-color: transparent !important;
+    border: none;
+    padding: 0;
+}
+
+.navLink:hover {
+    color: #84a46a;
+    border: none;
+    border-bottom: 2px solid #84a46a;
+    background-color: transparent;
+}

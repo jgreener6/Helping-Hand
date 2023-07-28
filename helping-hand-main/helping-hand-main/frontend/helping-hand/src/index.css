@@ -1,0 +1,77 @@
+/* orange accent: #ffa970 */
+/* green accent: #84a46a */
+
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;600;700&display=swap');
+
+body {
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Mulish', sans-serif;
+  margin: 0;
+}
+
+.App {
+  width: 100%;
+}
+
+.App.dark {
+  background-color: #212121;
+  background-image: url('../src/Assets/dark-bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #fbfdff;
+}
+
+.Header.dark {
+  background-color: #4D4D4D;
+}
+
+.App.light {
+  background-color: #fbfdff;
+  background-image: url('../src/Assets/light-bg.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #212121;
+}
+
+.Header.light {
+  background-color: #CFCFCF;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 10%;
+}
+
+/* BUTTON STYLES */
+
+button {
+  position: relative;
+  border-radius: 2px;
+  z-index: 1;
+  font-size: 1.25rem;
+  padding: 1px 20px 1px 20px;
+  background-color: #666666;
+  border: none;
+}
+
+button:hover {
+  border: 2px solid #84a46a;
+  color: #84a46a;
+  background-color: transparent;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  button {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  button {
+    font-size: 1.75rem;
+  }
+}
